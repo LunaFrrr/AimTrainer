@@ -18,7 +18,7 @@ int32 AMyTestActor::CalculateValue() {
 	return ValueA + ValueB;
 }
 
-void OnValueCalculate_Implementation() {
+void AMyTestActor::OnValueCalculate_Implementation() {
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Blue, TEXT("Hello"));
 }
 
